@@ -100,7 +100,7 @@ session_start();
             $name = strtoupper($_POST['name']);
             if ($name === "ARIKE") {
                 $_SESSION['name'] = $name;
-                header("Location: welcome.php");
+                header("Location: welcome.html");
                 exit();
             } else {
                 echo "<p class='error'>NOT RECOGNIZED</p>";
